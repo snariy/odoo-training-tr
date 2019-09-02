@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="open_standard" model="ir.actions.act_window">
+        <field name="name">Standard</field>
+        <field name="res_model">certification.standard</field>
+        <field name="view_mode" >tree,form</field>
+    </record>
+    <menuitem
+        name="Standard"
+        id="certification_menu"
+        sequence="5"
+        action="open_standard"/>
+</odoo>
