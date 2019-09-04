@@ -16,11 +16,12 @@
         'security/ir.model.access.csv',
         'views/certification_view.xml',
         'views/res_partner_view.xml',
+        'views/certification_bodies.xml',
         'views/standard_view.xml',
-        'views/certification_bodies.xml'
+        'reports/certification_report.xml',
 
     ],
-    'demo': ['demo/certification_demo.xml'],
+    'demo': ['demo/certification_data.xml'],
     'development_status':'Beta',
     'maintainers':['ceeficent'],
 }
